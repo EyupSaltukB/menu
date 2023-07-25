@@ -13,7 +13,7 @@ kullanıldı.
 
 <h3>Ekran Görüntüleri</h3>
 
-![](screens.png)
+![](images/screens.png)
 ![](./Ekran%20görüntüsü%202023-07-25%20192539.png)
 ![]()
 
