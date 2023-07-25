@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="">Ürün Detayları</h1>
+    <h1 id="content"></h1>
+
+    <script type="module">
+        import menu from './db.js'
+
+        // urldeki paramaetreleri searchparams değişkenine aktarma
+        const searchParams = new URLSearchParams(window.location.search);
+        
+        // parametreler arasında id parametresi alma
+        const id = searchParams.get('id');
+
+        // diziden id'ye göre ürün bulma
+        const found = menu.find((item) => item.id == id)
+        
+        document.getElementById("content").innerText =
+         `${found.title} ürününü görüntülüyorsunuz.`
+    </script>
+    </body>
+</html>
