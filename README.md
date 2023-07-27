@@ -1,6 +1,6 @@
 <h1>Menü Projesi</h1>
 
-Dinamik restaurant menü projesi
+dinamik yapıyla şekillendirdiğim restaurant menü projesi
 
 <h2> Kullanılan Teknolojiler</h2>
 
